@@ -55,9 +55,3 @@ This program will not transfer any information to other networked systems unless
 
 - [`github.com/ebfe/scard`](https://github.com/ebfe/scard) — BSD 2-Clause license
 - [`golang.org/x/sys`](https://pkg.go.dev/golang.org/x/sys) — BSD 3-Clause license
-
-## По-русски
-
-Программа для Windows читает карту водителя тахографа через PC/SC-кардридер и по нажатию пользователя передаёт
-файл странице KazTachoSystem. Устанавливается в профиль пользователя без прав администратора, перед установкой
-спрашивает подтверждение; удаляется командой `kts-card-agent.exe -uninstall` или в «Параметры» → «Приложения».
