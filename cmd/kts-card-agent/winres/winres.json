@@ -1,0 +1,47 @@
+{
+  "RT_GROUP_ICON": {
+    "APP": {
+      "0000": ["icon.png", "icon16.png"]
+    }
+  },
+  "RT_MANIFEST": {
+    "#1": {
+      "0409": {
+        "identity": {"name": "KazTachoSystem.CardAgent", "version": "0.0.0.0"},
+        "description": "KazTachoSystem Card Agent",
+        "minimum-os": "win7",
+        "execution-level": "as invoker",
+        "ui-access": false,
+        "auto-elevate": false,
+        "dpi-awareness": "system",
+        "disable-theming": false,
+        "disable-window-filtering": false,
+        "high-resolution-scrolling-aware": false,
+        "ultra-high-resolution-scrolling-aware": false,
+        "long-path-aware": false,
+        "printer-driver-isolation": false,
+        "gdi-scaling": false,
+        "segment-heap": false,
+        "use-common-controls-v6": false
+      }
+    }
+  },
+  "RT_VERSION": {
+    "#1": {
+      "0000": {
+        "fixed": {"file_version": "0.0.0.0", "product_version": "0.0.0.0"},
+        "info": {
+          "0000": {
+            "CompanyName": "KazTachoSystem",
+            "FileDescription": "KazTachoSystem — считывание карт водителя",
+            "FileVersion": "0.0.0",
+            "LegalCopyright": "© KazTachoSystem contributors, MIT",
+            "OriginalFilename": "kts-card-agent.exe",
+            "ProductName": "KazTachoSystem Card Agent",
+            "ProductVersion": "0.0.0"
+          }
+        }
+      }
+    }
+  }
+}
